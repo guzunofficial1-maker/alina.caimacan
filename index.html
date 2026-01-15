@@ -3,47 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Портфолио</title>
+  <title>Alina Caimacan — Portfolio</title>
   <style>
     body { margin:0; font-family: Arial, sans-serif; background:#0f172a; color:#e5e7eb; }
-    header { padding:60px 20px; text-align:center; background:#020617; }
+    header { padding:64px 20px; text-align:center; background:#020617; }
     section { max-width:900px; margin:40px auto; padding:0 20px; }
     .projects { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px; }
     .card { background:#020617; padding:20px; border-radius:12px; }
     a { color:#38bdf8; text-decoration:none; }
+    .meta { opacity: .9; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Alina Caimacan</h1>
-    <p>Frontend Developer</p>
-  </header>
 
-  <section>
-    <h2>About Me</h2>
-<p>
-I am a frontend developer focused on creating clean, responsive, and user-friendly web interfaces.
-I work with HTML, CSS, and JavaScript, and I am continuously improving my skills.
-</p>
-  </section>
+<header>
+  <h1>Alina Caimacan</h1>
+  <p class="meta">Frontend Developer</p>
+</header>
 
-  <section>
-   <div class="card">
-  <h3>Portfolio Website</h3>
-  <p>Personal portfolio website built with HTML and CSS.</p>
-  <a href="https://github.com/guzunofficial1-maker/alina.caimacan" target="_blank">GitHub</a>
-      </div>
-      <div class="card">
-        <h2>Projects</h2>
-        <a href="#">GitHub</a>
-      </div>
+<section>
+  <h2>About Me</h2>
+  <p>
+    I’m a frontend developer focused on building clean, responsive, and user-friendly web interfaces.
+    I work with HTML, CSS, and JavaScript, and I’m continuously improving my skills.
+  </p>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>Personal portfolio website built with HTML and CSS.</p>
+      <a href="https://github.com/guzunofficial1-maker/alina.caimacan" target="_blank" rel="noopener">GitHub</a>
     </div>
-  </section>
 
-  <section>
-   <h2>Contact</h2>
-    <p>Email: alya.caimacan</p>
-    <p>GitHub: <a href="https://github.com/username">github.com/guzunofficial1-maker/alina.caimacan</a></p>
-  </section>
-</body>
-</html>
+    <div class="card">
+      <h3>Project #2</h3>
+      <p>Short description of what you built and what technologies you used.</p>
+      <a href="#" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: your@email.com</p>
+  <p>GitHub: <a href="https://github.com/guzunofficial1-maker" target="_blank" rel="noopener">github.com/guzunofficial1-maker</a></p>
